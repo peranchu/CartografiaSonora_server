@@ -6,7 +6,7 @@ const app = express();
 require("dotenv").config();  //levanta Variables de Entorno
 
 app.get('/', (req, res) => {
-    res.send("Hola Mundo!!!!");
+    res.send("Hola Mundo!!!");
 });
 
 
